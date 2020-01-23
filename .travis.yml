@@ -1,0 +1,12 @@
+language: python
+perl:
+- '3.6'
+- '3.7'
+- 'nightly'
+install:
+  - pip install -r requirements.txt
+script:
+  - python scripts/map_chr.py --k examples/O_niloticus.bed --msp O_niloticus.msp.tsv --html --prefix example
+notifications:
+  slack:
+    secure: fMOWLuBkSsVprmPGOT7VHtoyrOHi93Lia2YHmjLaEOvwnybQY1/i1GfY7aihU0iHgcOTG3dO65OuT4QdNmBfVb3uAArSj46I3GrcHh4qIlB0cOI2UZFJSBRmRtMDmXQegKzInzq4gcFWfk0EAUWRcrp/OPGFqt1rfQjeGPlyH12jWPt81Dkc5i5osUMp9H77qoq/QpVRA/31ZJHreDETZ+2PZL9u8ZcmEVhP4eEynctOr7cGvISn4sHrRLzwIqvIK4HunixDzlHbuv9PwUa8bK5ZBCLdtiCylwpkZbOepzAdXoGAAlfaczPEAn3cdyHOERtIQAjbsN2GBm6aa0N3o33UnDkUsH+llrXouMIPACExsC+PSLRdtffmUHk702V8HtB6+nMrD+TCuG2yJSofmOLp44ks2gLChb+VpVlNs6ckpJqdPSZHPitj0EjG4049iOyknVDht81hW45k1EKUZpU9oEpGK04dqHtuw1pYUK98nTNiFCWwkyOxL9CB8X1Rpd1QNt/zS+S9Cw9AVpmsdwaIKqFiPWbH6MyBIbxqmsK+2Y4gS1Eq6nAlRAwbUcjiN7PcnV5KKzoi1k8qTPIePnoaIhX/+Wz0BWmBxz55QD8NXiXI7fnoH3RfU9plyz2jXX5AOp36w23kClYYnRlaE4wjyWJjZosUeRMejYwJvI8=

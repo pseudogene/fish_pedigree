@@ -1,0 +1,4 @@
+include output.png
+include examples/O_niloticus.bed
+include examples/O_niloticus.fb.tsv
+include examples/O_niloticus.msp.tsv
