@@ -4,7 +4,7 @@ fish_pedigree - Pedigree Chromosome Drawer
 
 # Fish-Pedigree
 
-Fish-Pedigree is a set of Python 3 scripts able to draw publication-ready vectorial chromosomes for pedigree and local ancestry inferance.
+Fish-Pedigree is a set of Python3 scripts able to draw publication-ready vectorial chromosomes for pedigree and local ancestry inferance.
 
 
 ## Description
@@ -67,7 +67,7 @@ Usage: map_chr.py --karyotype KARYOTYPE
                   [--fb FB] [--t THRESHOLD]
                   [--chr CHRM] [--sample SAMPLE]
                   [--prefix PREFIX]
-                  [--html] [--nojs] [--R]
+                  [--html] [--nojs]
 
 Arguments:
   --msp MSP
