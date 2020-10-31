@@ -118,5 +118,16 @@ rfmix -f query.vcf -r reference.vcf -m sample_list.txt -g my_map.txt -o output -
 map_chr.py --msp output.msp.tsv --karyotype my_genome.bed --html
 ```
 
+
+## How to cite fish\_pedigree
+
+>Avallone, A., Bartie, K.L., Selly, S.-L.C., Taslima, K. Campos Mendoza, A., Bekaert, M.
+>**Local ancestry inference provides insight into Tilapia breeding programmes**.
+>_Sci Rep_, **10**, 18613 (2020).
+
+[![DOI](https://img.shields.io/badge/DOI-10.1038%2Fs41598--020--75744--9-blue.svg)](http://dx.doi.org/10.1038/s41598-020-75744-9)
+
+
+
 ## License
 The content of this project itself is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/), and the source code presented is licensed under the [GPLv3 license](http://www.gnu.org/licenses/gpl-3.0.html).
